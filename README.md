@@ -8,8 +8,6 @@
 [![X](https://srv-cdn.himpfen.io/badges/twitter/twitter-flat.svg)](https://x.com/ListsAwesome) 
 [![Facebook](https://srv-cdn.himpfen.io/badges/facebook-pages/facebook-pages-flat.svg)](https://www.facebook.com/awesomelists)
 
-📌 This repository is archived with Zenodo and can be cited using the DOI above.
-
 > A curated list of resources for educational content creation, course design frameworks, instructional media production, interactive assessment authoring, and open educational resources (OER).
 
 Educational content creation involves designing, producing, and structuring engaging learning materials across digital and print mediums. This list is intended for instructional designers, online educators, course creators, curriculum developers, and academic content producers.

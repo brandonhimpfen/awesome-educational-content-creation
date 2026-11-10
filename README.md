@@ -1,4 +1,4 @@
-# Awesome Name [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
+# Awesome Educational Content Creation [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
 
 [![Support Open Work](https://img.shields.io/badge/Support-Open%20Work-0A0A0A?style=flat&logo=github)](https://github.com/brandonhimpfen/support) 
 [![GitHub Sponsor](https://srv-cdn.himpfen.io/badges/github/github-flat.svg)](https://github.com/sponsors/brandonhimpfen) 
@@ -10,36 +10,68 @@
 
 📌 This repository is archived with Zenodo and can be cited using the DOI above.
 
-> A curated list of resources for
+> A curated list of resources for educational content creation, course design frameworks, instructional media production, interactive assessment authoring, and open educational resources (OER).
 
-Statement about the importance of the topic. Statement about who the list is intended for.
+Educational content creation involves designing, producing, and structuring engaging learning materials across digital and print mediums. This list is intended for instructional designers, online educators, course creators, curriculum developers, and academic content producers.
 
 _Support ongoing maintenance and curation via [GitHub Sponsors](https://github.com/sponsors/brandonhimpfen)._
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Course Authoring & Instructional Design](#course-authoring--instructional-design)
+- [Interactive Assessment & Quiz Authoring](#interactive-assessment--quiz-authoring)
+- [Instructional Media & Diagramming](#instructional-media--diagramming)
+- [Open Educational Resources (OER)](#open-educational-resources-oer)
+  - [Open Courseware Systems](#open-courseware-systems)
+  - [OER Publishing Tools](#oer-publishing-tools)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Section
+## Course Authoring & Instructional Design
 
-About this section. Keep this short and focused on what the resources represent.
+Frameworks, open-source software, and authoring environments for structuring digital courses and learning modules.
 
-- [Example Project One](https://example.com/project-one) — Short, neutral description of what this resource does.
-- [Example Project Two](https://example.com/project-two) — Short, neutral description of what this resource does.
+- [H5P](https://github.com/h5p) — Open-source framework enabling creators to build, share, and reuse rich interactive HTML5 content and course modules.
+- [Adapt Authoring Tool](https://github.com/adaptlearning/adapt_authoring) — Web-based authoring application for creating responsive, multi-device elearning content using the Adapt framework.
+- [Open edX Course Authoring](https://github.com/openedx/openedx-platform) — Scalable course production platform for creating self-paced and instructor-led online learning programs.
+- [CourseLab](https://github.com/courselab) — Open e-learning authoring environment for creating interactive educational content without advanced programming knowledge.
 
-## Another Section
+## Interactive Assessment & Quiz Authoring
 
-### Subsection
+Tools and engines for developing diagnostic tests, interactive quizzes, and automated evaluation metrics.
 
-- [Example Tool One](https://example.com/tool-one) — Short, neutral description of what this resource does.
-- [Example Tool Two](https://example.com/tool-two) — Short, neutral description of what this resource does.
+- [QTI (Question & Test Interoperability) Engine](https://github.com/IMSGlobal) — Open data model and tools for creating standardized, platform-independent assessment items.
+- [Quizdown](https://github.com/vhesener/quizdown) — Lightweight tool for generating interactive SVG and HTML quizzes directly from Markdown files.
+- [Formative Assessment Templates](https://github.com/formative) — Open repository of digital rubrics, diagnostic templates, and student feedback loops.
+
+## Instructional Media & Diagramming
+
+Software, engines, and graphics suites optimized for technical illustrations, math notation, and educational video production.
+
+- [Manim](https://github.com/3b1b/manim) — Animation engine for explanatory math and technical videos, created by 3Blue1Brown.
+- [Mermaid](https://github.com/mermaid-js/mermaid) — JavaScript-based diagramming and charting tool that uses Markdown-inspired text definitions to generate complex educational flowcharts.
+- [MathJax](https://github.com/mathjax/MathJax) — Open-source JavaScript display engine for LaTeX, MathML, and AsciiMath notation across digital learning platforms.
+- [Excalidraw](https://github.com/excalidraw/excalidraw) — Virtual whiteboard tool with a hand-drawn feel, ideal for sketching diagrams and visual explanations.
+
+## Open Educational Resources (OER)
+
+Platforms and publishing tools for producing open-access textbooks, learning repositories, and reusable study guides.
+
+### Open Courseware Systems
+
+- [Pressbooks](https://github.com/pressbooks/pressbooks) — Open-source book production software built on WordPress, designed for creating accessible digital and print textbooks.
+- [Jupyter Books](https://github.com/executablebooks/jupyter-book) — Open-source tool for building publication-quality online books and documents from computational notebooks and Markdown.
+
+### OER Publishing Tools
+
+- [OpenStax Utilities](https://github.com/openstax) — Open publishing scripts and accessibility validation suites for high-quality open textbook creation.
 
 ## Related Awesome Lists
 
-- [Awesome Example One](https://example.com/awesome-one) — Short, neutral description of the related list.
-- [Awesome Example Two](https://example.com/awesome-two) — Short, neutral description of the related list.
-  
+- [Awesome AI in Education](https://github.com/brandonhimpfen/awesome-ai-in-education) — Resources for artificial intelligence in education, intelligent tutoring, and adaptive learning platforms.
+- [Awesome Developer Education](https://github.com/brandonhimpfen/awesome-developer-education) — Interactive coding platforms, developer onboarding, and technical writing tools.
+- [Awesome EdTech](https://github.com/brandonhimpfen/awesome-edtech) — Software, infrastructure, and digital tools serving educational institutions and learners.
+- [Awesome Open Science](https://github.com/brandonhimpfen/awesome-open-science) — Open research repositories, open data frameworks, and collaborative scientific publishing.
+
 ## Contribute
 
 Contributions are welcome. Please ensure your submission fully follows the requirements outlined in [`CONTRIBUTING.md`](CONTRIBUTING.md), including formatting, scope alignment, and category placement.
@@ -49,14 +81,3 @@ Pull requests that do not adhere to the contribution guidelines may be closed.
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
-
-## Maintenance
-
-This template includes GitHub Actions workflows for automated link checking:
-
-- **Links (PR)** checks Markdown links on pull requests.
-- **Links (Scheduled → Issue)** runs weekly and opens or updates an issue if it finds broken links.
-
-You can tune link checking behavior in `lychee.toml`.
-
-Automated checks: link checking (PR + weekly), duplicate URL detection, and a lightweight Awesome List lint.
